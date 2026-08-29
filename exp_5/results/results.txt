@@ -1,0 +1,52 @@
+============================================================
+EXPERIMENT 5: FULL LOGISTIC REGRESSION PIPELINE
+============================================================
+
+BINARY LOGISTIC REGRESSION
+----------------------------------------
+Accuracy : 0.9825
+Precision: 0.9861
+Recall   : 0.9861
+F1 Score : 0.9861
+
+Confusion Matrix:
+[[41  1]
+ [ 1 71]]
+
+REGULARIZATION COMPARISON
+----------------------------------------
+L1 Regularization : 0.9912
+L2 Regularization : 0.9825
+Elastic Net : 0.9825
+
+BIAS-VARIANCE TRADE-OFF
+----------------------------------------
+C = 0.01 | Mean Accuracy = 0.9491
+C = 0.1 | Mean Accuracy = 0.9772
+C = 1 | Mean Accuracy = 0.9807
+C = 10 | Mean Accuracy = 0.9684
+C = 100 | Mean Accuracy = 0.9631
+
+MULTINOMIAL LOGISTIC REGRESSION
+----------------------------------------
+Multinomial Accuracy: 0.9722
+
+Confusion Matrix:
+[[12  0  0]
+ [ 0 14  0]
+ [ 0  1  9]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00        12
+           1       0.93      1.00      0.97        14
+           2       1.00      0.90      0.95        10
+
+    accuracy                           0.97        36
+   macro avg       0.98      0.97      0.97        36
+weighted avg       0.97      0.97      0.97        36
+
+============================================================
+EXPERIMENT 5 COMPLETED SUCCESSFULLY
+============================================================
